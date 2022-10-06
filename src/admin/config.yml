@@ -30,7 +30,7 @@ collections:
         name: "tags"
         multiple: true
         create: true
-        options: ["html", "css", "javascript", "git", "react"
+        options: ["html", "css", "javascript", "git", "react"]
   - label: "Settings"
     name: "settings"
     editor:
