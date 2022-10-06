@@ -20,3 +20,25 @@ Let's dive right into it.
 So for this tutorial, we'll write a basic program that checks a student score for the programing language test they took and determine weather to pass or fail them.\
 \
 Before we proceed, you should have an understanding of what functions does.
+
+```javascript
+function fail() {
+    const comment = "Ooops! sorry dude you failed badly"
+    console.log(comment)
+}
+
+function pass() {
+    const comment = "Yo champ! you did very well"
+    console.log(comment)
+}
+
+function checkResult(score) {
+    if (score >= 50) {
+        return pass()
+    }else {
+        return fail()
+    }
+}
+
+checkResult(50)
+```
