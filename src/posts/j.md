@@ -53,10 +53,26 @@ function checkResult(score) {
 checkResult(50)
 ```
 
+
+
 > The above example might be intimidating for some people while for some it's just eba and egusi soup.
 
 
 
 If it's too much for you, just know that it's okay not to understand everything right now. Just follow my explanation and make sense of it then revisit this article when you've leveled up.\
 \
-In the above code, you can see that we have three functions, each of them are doing a specific task
+In the above code, you can see that we have three functions, each of them are doing a specific task.
+
+We have a fail function which holds the information that will be displayed to the student if they fail\
+\
+The pass function here is also doing the same thing as the fail function\
+\
+Next is the checkResult function that actually performs the evaluation of checking the student's score and determining the Right function to call.\
+\
+Notice that the checkResult function on declaration accepts a parameter and an argument when the function is called/invoked
+
+
+
+> Parameters are like placeholder to a function which will denote the value that will passed to the function when called.\
+>                             While\
+> Arguments are the value that you provide to your function when invoked.
