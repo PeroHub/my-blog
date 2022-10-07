@@ -70,8 +70,20 @@ Notice that the checkResult function on declaration accepts a parameter and an a
 > Parameters are like placeholder to a function which will denote the value that will passed to the function when called. While\
 > Arguments are the value that you provide to your function when invoked.
 
-![](/static/img/jam.png)
+![](/static/img/whiteboard.jpeg)
 
-We have a conditional check Inside the function. In this case, we are checking if the student score is greater than or equals 50. If the condition is true we return the pass function -- else, we return fail function.
+We have a conditional check Inside the function. In this case, we are checking if the student's score is greater than or equal to 50. If the condition is true we return the pass function -- else, we return the fail function.
 
 > Return keyword is used to stop the execution of a function and returning a final value
+
+So in our program, we are using the return keyword to stop our checkResult function and return the corresponding value of the function(pass or fail) that passes the conditional check.
+
+> The return statement should be the last statement in a function because the code after the return statement will not run.
+
+Now our program is working like magic - kudos to you for coming this far!!
+
+You can run the program directly in vscode, ensure that you have node installed then open a JavaScript file and paste the codes. On your vscode, type ctr + shift + ~(backticks) backticks is the key below your ESC key or the key next to the number 1 key. This command will open vscode console. On the console, type node fellowing the file name then press enter and that's the result.
+
+### Conclusion
+
+This is just a basic console program. You can extend the complexity and function of the program to doing something like -- redirecting or giving your users access to another page or maybe awarding them a certificate to download after passing a test. The possibility are endless.
