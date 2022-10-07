@@ -10,15 +10,15 @@ tags:
 ---
 As a developer, your entire activities will be spent writing function upon function to solve specific problems.
 
-You might be thinking to yourself why functions are so important especially starting out your tech journey.\
+You might be thinking why functions are so important, especially starting out your tech journey.\
 \
-I'll give you a very simple definition while walking you through some code examples like I'm explaining to a 5-year-old child so you have a solid grabs that can stand the test of time.
+I'll give you a very simple definition while walking you through some code examples like I'm explaining to a 5-year-old child so you have solid grabs that can stand the test of time.
 
 Sound interesting?\
 \
 Let's dive right into it.
 
-So for this tutorial, we'll write a basic program that checks a student score for the programing language test they took and determine whether to pass or fail them.\
+So for this tutorial, we'll write a basic program that checks a student's score for the programing language test they took and determine whether to pass or fail them.\
 \
 Before we proceed, you should have an understanding of what functions do:
 
@@ -28,6 +28,8 @@ Functions are just like your pot of soup that lets you combine together a group 
 Does it make sense?\
 \
 Okay let's go back to the program we're going to be working on.
+
+Here's the code.
 
 ```javascript
 function fail() {
@@ -50,3 +52,11 @@ function checkResult(score) {
 
 checkResult(50)
 ```
+
+> The above example might be intimidating for some people while for some it's just eba and egusi soup.
+
+
+
+If it's too much for you, just know that it's okay not to understand everything right now. Just follow my explanation and make sense of it then revisit this article when you've leveled up.\
+\
+In the above code, you can see that we have three functions, each of them are doing a specific task
