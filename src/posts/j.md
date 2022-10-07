@@ -77,3 +77,5 @@ Notice that the checkResult function on declaration accepts a parameter and an a
 > Arguments are the value that you provide to your function when invoked.
 
 ![](/static/img/jam.png)
+
+We have a conditional check Inside the function. In this case, we are checking if the student score is greater than or equals 50. If the condition is true we return the pass function -- else, we return fail function.
