@@ -59,9 +59,9 @@ If it's too much for you, just know that it's okay not to understand everything 
 \
 In the above code, you can see that we have three functions, each of them are doing a specific task.
 
-We have a fail function which holds the information that will be displayed to the student if they fail\
+We have a fail function which holds the information that will be displayed to the student if they fail.\
 \
-The pass function here is also doing the same thing as the fail function\
+The pass function here is also doing the same thing as the fail function.\
 \
 Next is the checkResult function that actually performs the evaluation of checking the student's score and determining the Right function to call.\
 \
@@ -82,7 +82,7 @@ So in our program, we are using the return keyword to stop our checkResult funct
 
 Now our program is working like magic - kudos to you for coming this far!!
 
-You can run the program directly in vscode, ensure that you have node installed then open a JavaScript file and paste the codes. On your vscode, type ctr + shift + ~(backticks) backticks is the key below your ESC key or the key next to the number 1 key. This command will open vscode console. On the console, type node fellowing the file name then press enter and that's the result.
+You can run the program directly in vscode, ensure that you have node installed then open a JavaScript file and paste the codes. On your vscode, type `ctr + shift + ~` (backticks) backticks is the key below your ESC key or the key next to the number 1 key. This command will open vscode console. On the console, type node fellowing the file name then press enter and that's the result.
 
 ### Conclusion
 
