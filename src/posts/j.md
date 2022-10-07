@@ -86,4 +86,4 @@ You can run the program directly in vscode, ensure that you have node installed 
 
 ### Conclusion
 
-This is just a basic console program. You can extend the complexity and function of the program to doing something like -- redirecting or giving your users access to another page or maybe awarding them a certificate to download after passing a test. The possibility are endless.
+This is just a basic console program. You can extend the complexity and function of the program to doing something like -- redirecting or giving your users access to another page or maybe awarding them a certificate to download after passing a test. The possibility is endless.
