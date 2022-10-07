@@ -53,11 +53,7 @@ function checkResult(score) {
 checkResult(50)
 ```
 
-
-
 > The above example might be intimidating for some people while for some it's just eba and egusi soup.
-
-
 
 If it's too much for you, just know that it's okay not to understand everything right now. Just follow my explanation and make sense of it then revisit this article when you've leveled up.\
 \
@@ -71,11 +67,11 @@ Next is the checkResult function that actually performs the evaluation of checki
 \
 Notice that the checkResult function on declaration accepts a parameter and an argument when the function is called/invoked
 
-
-
 > Parameters are like placeholder to a function which will denote the value that will passed to the function when called. While\
 > Arguments are the value that you provide to your function when invoked.
 
 ![](/static/img/jam.png)
 
 We have a conditional check Inside the function. In this case, we are checking if the student score is greater than or equals 50. If the condition is true we return the pass function -- else, we return fail function.
+
+> Return keyword is used to stop the execution of a function and returning a final value
