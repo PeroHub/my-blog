@@ -82,7 +82,13 @@ So in our program, we are using the return keyword to stop our checkResult funct
 
 Now our program is working like magic - kudos to you for coming this far!!
 
-You can run the program directly in vscode, ensure that you have node installed then open a JavaScript file and paste the codes. On your vscode, type `ctr + shift + ~` (backticks) backticks is the key below your ESC key or the key next to the number 1 key. This command will open vscode console. On the console, type node fellowing the file name then press enter and that's the result.
+You can run the program directly in vscode, ensure that you have node installed then open a JavaScript file and paste the codes. On your vscode, type 
+
+```
+ctrl + shift + ~
+```
+
+ctrl + shift + ~ (backticks) backticks is the key below your ESC key or the key next to the number 1 key. This command will open vscode console. On the console, type node fellowing the file name then press enter and that's the result.
 
 ### Conclusion
 
