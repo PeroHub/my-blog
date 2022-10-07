@@ -28,7 +28,7 @@ path: home
       {% for post in collections.post | reverse %}
       <a href="{{ post.url | url }}" >
         <div class=" border h-full    rounded-md shadow-lg">
-          <div class=""><img class=""  src="{{post.data.image}}"  alt="" /></div>
+          <div class=""><img class=""  src="{{post.data.image}}"  alt="{{ post.image.imageAlt}}" /></div>
           <p class="p-8 text-lg md:text-2xl">{{post.data.title}}</p>
         </div>
       </a>
