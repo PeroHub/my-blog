@@ -73,6 +73,7 @@ Notice that the checkResult function on declaration accepts a parameter and an a
 
 
 
-> Parameters are like placeholder to a function which will denote the value that will passed to the function when called.\
->                             While\
+> Parameters are like placeholder to a function which will denote the value that will passed to the function when called. While\
 > Arguments are the value that you provide to your function when invoked.
+
+![](/static/img/jam.png)
