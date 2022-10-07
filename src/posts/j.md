@@ -8,7 +8,7 @@ image: /static/img/lap.avif
 tags:
   - javascript
 ---
-As a developer, your entire activities will be spent writing function upon function to solve specific problems.
+As a developer, your entire activities will be spent writing functions upon functions to solve specific problems.
 
 You might be thinking why functions are so important, especially starting out your tech journey.\
 \
