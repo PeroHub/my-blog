@@ -57,3 +57,19 @@ See how our page looks good on mobile without any media query and adding flex.
 > Browser stacks contents by default which is what we what for our mobile design.
 
 Now, stretch the browser to bigger width and notice how the contents keep responding to the width of the page. Here, remember how I explained the meta-information above. So we are simply designing in accordance with the default scaling of the page and not going against it in any way.
+
+Make sense?\
+\
+Wait a sec, you're probably thinking "okay Peter the website is not looking nice when the page is stretched, so what are you trying to say?"\
+\
+Hmm🤪 right. But just chill small let me break it to ya😁\
+\
+So now, this is where the media query of minimum width and flex property comes in. On mobile we want things to stack(column) from "Top to Butum" 😋 and appear as rows on tablet or laptop.
+
+You now have a functional mobile-first responsive design. If you host on netlify now, it will look absolutely good on mobile but not on big screens yet.\
+\
+To have it look good on big screens add this line of code and there you go.
+
+
+
+### Building For Desktop-first
