@@ -41,9 +41,216 @@ You can click on this [link](https://www.frontendmentor.io/challenges/social-pro
 
 After successfully getting the kits from the frontend mentor site, open it on your vscode and paste in the code below.
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css">
+
+    <title>my project</title>
+
+    
+    <script src="https://kit.fontawesome.com/040b7576f0.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="contentleft">
+         
+          <h3 class="headerText">10,000+ of our users love our products.</h3>
+          <p>We only provide great products combined with excellent customer service.
+            See what our satisfied customers are saying about our services.</p>
+        </div>
+        <div class="contentright">
+          <div class="content">
+            <span>
+              <i class="fa fa-star style="color:yellow !important;"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </span>
+            <p>Rated 5 Stars in Reviews</p>
+          </div>
+          <div class="content">
+            <span>
+              <i class="fa fa-star style="color:yellow !important;"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </span>
+            <p> Rated 5 Stars in Report Guru</p>
+          </div>
+          <div class="content">
+            <span>
+              <i class="fa fa-star style="color:yellow !important;"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </span>
+            <p>Rated 5 Stars in BestTech</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="cardcontainer">
+          <div class="cardmedia">
+            <div class="cardheader-img">
+              <img src="./images/image-colton.jpg" alt="colton">
+            </div>
+            <div class="headertext">
+              <p>Colton Smith </p>
+              <p>Verified Buyer</p>
+            </div>
+          </div>
+          <div class="cardaction">
+            <p>"We needed the same printed design as the one we had ordered a week prior.
+              Not only did they find the original order, but we also received it in time.
+              Excellent!"</p>
+          </div>
+        </div>
+        <div class="cardcontainer">
+          <div class="cardmedia">
+            <div class="cardheader-img">
+              <img src="./images/image-irene.jpg" alt="Irene">
+            </div>
+            <div class="headertext">
+              <p>Irene Roberts </p>
+              <p>Verified Buyer</p>
+            </div>
+          </div>
+          <div class="cardaction">
+            <p>"Customer service is always excellent and very quick turn around. Completely
+              delighted with the simplicity of the purchase and the speed of delivery."</p>
+          </div>
+        </div>
+        <div class="cardcontainer">
+          <div class="cardmedia">
+            <div class="cardheader-img">
+              <img src="./images/image-anne.jpg" alt="Anne">
+            </div>
+            <div class="headertext">
+              <p>Anne Wallace </p>
+              <p>Verified Buyer</p>
+            </div>
+          </div>
+          <div class="cardaction">
+            <p>Put an order with this company and can only praise them for the very high
+              standard. Will definitely use them again and recommend them to everyone!"</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+
+    <div class="attribution">
+      
+     Coded by <a href="#">me</a>.
+    </div>
+  </body>
+</html>
+
+```
+
 The above code represents the HTML structure of our website.\
 \
 Next up, open a CSS file and paste these code.
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.fa-star {
+    color: hsl(19, 80%, 58%);
+}
+
+main {
+    padding: 20px;
+}
+
+.contentleft h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0;
+    color: hsl(300, 43%, 22%);
+}
+
+.contentleft p {
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.contentright .content {
+    background-color: hsl(300, 24%, 96%);
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contentright .content p {
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.cardcontainer {
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.cardmedia {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.cardmedia .cardheader-img {
+    display: inline;
+    width: 50px;
+    height: 50px;
+}
+
+.cardmedia .cardheader-img img {
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+}
+
+.cardmedia .headertext {
+    display: inline;
+    margin-left: 10px;
+   
+}
+
+.cardmedia .headertext p:nth-child(2) {
+    color: hsl(333, 80%, 67%);
+    margin-top: 5px;
+}
+
+```
 
 Open your project with live server and inspect the page. Shrink the browser width to 375px([](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)[Typical Device Breakpoints](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)) so we can see how it will look on mobile.
 
@@ -63,7 +270,60 @@ So now, this is where the media query of minimum width and flex property comes i
 
 You now have a functional mobile-first responsive design. If you host on netlify now, it will look absolutely good on mobile but not on big screens yet.\
 \
-To have it look good on big screens add this line of code and there you go.
+To have it look good on big screens add this line of code below and there you go.
+
+```css
+@media screen and (min-width: 700px) {
+    .section1 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* background-color: red; */
+    }
+
+    .contentleft, .contentright {
+        width: 30%;
+    }
+
+    .contentleft h3, .contentleft p {
+        text-align: left;
+        /* font-size: 2.5rem; */
+    }
+
+    .contentleft p {
+        padding: 0;
+    }
+
+    .contentright .second {
+        position: relative;
+        left: 50px;
+    }
+
+    .contentright .third {
+        position: relative;
+        left: 85px;
+    }
+
+    .contentright .content {
+        padding: 15px;
+    }
+
+    .section2 {
+        display: flex;
+        gap: 20px;
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .attribution {
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+```
+
+
 
 ### Building For Desktop-first
 
@@ -73,7 +333,160 @@ We go against the browser scaling by using flex at first to create the layout to
 \
 Comment out the mobile-first CSS and paste in the CSS below.\
 \
-See how we are having a lot of code inside the media query which is a red flag.
+See how we are resetting the layout(flex-direction, position and width) bo how the browser had already positioned them by default which is a red flag.
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.fa-star {
+    color: hsl(19, 80%, 58%);
+}
+
+main {
+    padding: 20px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.contentleft, .contentright {
+    width: 30%;
+}
+
+.contentleft h3 {
+    font-size: 2.5rem;
+    text-align: left;
+    margin: 20px 0;
+    color: hsl(300, 43%, 22%);
+}
+
+.contentleft p {
+    text-align: left;
+    color: hsl(300, 43%, 22%);
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.contentright .content {
+    background-color: hsl(300, 24%, 96%);
+    text-align: left;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.contentright .second {
+    position: relative;
+    left: 50px;
+}
+
+.contentright .third {
+    position: relative;
+    left: 85px;
+}
+
+.section2 {
+    display: flex;
+    gap: 20px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.cardcontainer {
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.cardmedia {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.cardmedia .cardheader-img {
+    display: inline;
+    width: 50px;
+    height: 50px;
+}
+
+.cardmedia .cardheader-img img {
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+}
+
+.cardmedia .headertext {
+    display: inline;
+    margin-left: 10px;
+   
+}
+
+.cardmedia .headertext p:nth-child(2) {
+    color: hsl(333, 80%, 67%);
+    margin-top: 5px;
+}
+
+.attribution {
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .section1 {
+        flex-direction: column;
+    }
+
+    .contentleft, .contentright {
+        width: 100%;
+    }
+
+    .contentright .second {
+        left: 0;
+    }
+    
+    .contentright .third {
+        left: 0;
+    }
+
+    .contentleft h3, .contentleft p {
+        text-align: center;
+    }
+
+    .contentright .content {
+        text-align: center;
+    }
+
+    .section2 {
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+    }
+
+    .contentright .content p {
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+```
 
 > Flexbox or grid is our go-to property for layout design in desktop-first.
 
