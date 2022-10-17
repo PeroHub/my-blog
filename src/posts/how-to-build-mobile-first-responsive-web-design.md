@@ -331,9 +331,7 @@ So here, we are doing quite the opposite of what we did in the mobile-first appr
 \
 We go against the browser scaling by using flex at first to create the layout to row and using media query maximum width to return to column(stacking)\
 \
-Comment out the mobile-first CSS and paste in the CSS below.\
-\
-See how we are resetting the layout(flex-direction, position and width) bo how the browser had already positioned them by default which is a red flag.
+Comment out the mobile-first CSS and paste in the CSS below.
 
 ```css
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
@@ -488,9 +486,11 @@ main {
 
 ```
 
+See how we are resetting the layout(flex-direction, position and width) bo how the browser had already positioned them by default which is a red flag.
+
 > Flexbox or grid is our go-to property for layout design in desktop-first.
 
-So what we are doing in desktop is using flexbox to alter the default behavior and then using media query to re-arrange it back which is not very nice. You will agree that we going against the golden rule of DRY(don't repeat yourself) coupled with a lot of redundant code.
+So what we are doing on desktop is using flexbox to alter the default behavior and then using media query to re-arrange it back which is not very nice. You will agree that we going against the golden rule of DRY(don't repeat yourself) coupled with a lot of redundant code.
 
 ### Conclusion
 
