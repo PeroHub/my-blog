@@ -14,11 +14,12 @@ prism: true
     
                 </time>
             </p>
+            <!-- <img src="{{image}}" alt="{{ post.image.imageAlt}}"> -->
     
             
         </div>
         <article class="prose lg:prose-xl my-4 mx-auto">
-          <img src="{{ post.data.image }}" alt="{{ post.image.imageAlt}}">
+          <img src="{{image}}" alt="{{ post.image.imageAlt}}">
             {{ content | safe }}</article>
     
     </div>
