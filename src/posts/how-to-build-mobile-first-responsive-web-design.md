@@ -15,10 +15,9 @@ You know those websites where you are like o boy "the person wer implements this
 \
 Yea, you know yourself 😁 but sometimes, every newbie needs those comments to feel good.
 
-### \
-Why Mobile First
 
-\
+
+Why Mobile First\
 Naturally, websites are responsive before we even write a single line of CSS. Which is made possible by the meta information present in the header of your page.
 
 ```
@@ -38,13 +37,9 @@ I'll be using a project from frontend mentor in this tutorial to show the differ
 \
 You can click on this [link](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA) to get the starter Kits for this project and build along.
 
-
-
 ### Building For Mobile-first
 
 After successfully getting the kits from the frontend mentor site, open it on your vscode and paste in the code below.
-
-
 
 The above code represents the HTML structure of our website.\
 \
@@ -70,6 +65,22 @@ You now have a functional mobile-first responsive design. If you host on netlify
 \
 To have it look good on big screens add this line of code and there you go.
 
-
-
 ### Building For Desktop-first
+
+So here, we are doing quite the opposite of what we did in the mobile-first approach.\
+\
+We go against the browser scaling by using flex at first to create the layout to row and using media query maximum width to return to column(stacking)\
+\
+Comment out the mobile-first CSS and paste in the CSS below.\
+\
+See how we are having a lot of code inside the media query which is a red flag.
+
+> Flexbox or grid is our go-to property for layout design in desktop-first.
+
+So what we are doing in desktop is using flexbox to alter the default behavior and then using media query to re-arrange it back which is not very nice. You will agree that we going against the golden rule of DRY(don't repeat yourself) coupled with a lot of redundant code.
+
+### Conclusion
+
+Today mobile devices are at forefront of the digital revolution. With approximately 60% of web traffic coming from these devices, mobile-first design should be the norm.\
+\
+My point here is to always build for mobile devices first even if you have a desktops-mockup-only design available. It's not difficult and you'll realize how it safe you a ton of redundant codes.
