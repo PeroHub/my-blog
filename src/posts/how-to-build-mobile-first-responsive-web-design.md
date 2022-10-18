@@ -1,6 +1,6 @@
 ---
 title: How To build mobile-first responsive web design
-description: Understanding mobile-first responsive web design
+description: Understanding mobile-first responsive web design with css
 author: Peter Ime
 date: 2022-10-15T14:50:57.620Z
 image: /static/img/fcc-cover.jpg
