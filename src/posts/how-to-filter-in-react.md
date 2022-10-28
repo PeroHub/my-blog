@@ -7,7 +7,7 @@ image: /static/img/filter.avif
 tags:
   - react
 ---
-Implementing filtering functionality in an application is very common task of a developer to create a seemingly good user experience feature which saves a user the stress of scrolling through our website a bunch of time to find what they want.
+Implementing filter functionality in an application is very common task of a developer to create a seemingly good user experience feature which saves a user the stress of scrolling through our website a bunch of time to find what they want.
 
 In this tutorial, I assume that you have React knowledge already as this not a beginner tutorial.
 
