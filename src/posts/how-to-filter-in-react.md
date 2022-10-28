@@ -13,7 +13,7 @@ In this tutorial, I assume that you have React knowledge already as this not a b
 
 To proceed, ensure that you have Node installed. Node is an open source JavaScript runtime environment that runs on chrome V8 engine. This comes bundled with NPM-- a package manager that would enable us install and run React and other packages that we will use.
 
-### How To Check If Node Installed
+### How To Check If Node Is Installed
 
 Open your cmd or terminal and run this command to confirm -
 
