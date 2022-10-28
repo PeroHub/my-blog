@@ -1,5 +1,5 @@
 ---
-title: How To Filter in React
+title: How To Filter In React
 description: How To Filter in React
 author: Peter Ime
 date: 2022-10-27T16:36:34.558Z
