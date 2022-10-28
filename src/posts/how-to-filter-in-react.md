@@ -52,3 +52,11 @@ Run this command and open the folder on vscode after successful installation.
 ```shell
 npx create-react-app my-app
 ```
+
+G﻿o inside the folder and start the project with these command-
+
+```shell
+cd my-app
+npm start
+
+```
