@@ -11,7 +11,7 @@ Implementing filtering functionality in an application is very common task of a 
 
 In this tutorial, I assume that you have React knowledge already as this not a beginner tutorial.
 
-To proceed, ensure that you have Node installed. Node is an open source JavaScript runtime environment that runs on chrome V8 engine. This comes bundled with NPM-- a package manager that would enable us install and run React.
+To proceed, ensure that you have Node installed. Node is an open source JavaScript runtime environment that runs on chrome V8 engine. This comes bundled with NPM-- a package manager that would enable us install and run React and other packages that we will use.
 
 ### How To Check If Node Installed
 
@@ -255,3 +255,19 @@ L﻿ong code right? don't worry before I explain, add this responsive CSS code t
   
 }
 ```
+
+
+
+A﻿lright, let me explain what is happening in App.js :-
+
+1. A﻿rray
+
+![Array](/static/img/array.jpg "Array")
+
+
+
+T﻿he data in the image above represent our array of questions and answers that we are using to build our UI.
+
+2﻿. React Event
+
+![event](/static/img/event.jpg "event")
