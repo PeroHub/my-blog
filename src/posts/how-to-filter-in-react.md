@@ -258,4 +258,4 @@ And that is it for this tutorial.
 
 ### Conclusion
 
-There other ways to achieve the same result. Explore, improve and do some magic with your c.oding super power.
+There other ways to achieve the same result. Explore, improve and do some magic with your coding super power.
