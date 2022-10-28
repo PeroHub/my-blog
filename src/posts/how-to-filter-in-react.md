@@ -60,3 +60,12 @@ cd my-app
 npm start
 
 ```
+
+
+
+N﻿ow lets install tailwind for design and react icons
+
+```shell
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
