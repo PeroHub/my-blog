@@ -49,6 +49,6 @@ If you're not having the expected results, go over it again step by step.
 
 Run this command and open the folder on vscode after successful installation.
 
-```javascript
+```shell
 npx create-react-app my-app
 ```
