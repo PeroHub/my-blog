@@ -40,3 +40,11 @@ Y﻿ou'll have somthing like this -
 
 
 Your version of node and npm  might be different at the time of download. No need to worry as the projects is constantly releasing new improved versions.
+
+If you're not having the expected results, go over it again step by step.
+
+
+
+### Installing React
+
+Run this command and open it on vscode after installation.
