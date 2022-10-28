@@ -65,7 +65,7 @@ npm start
 
 N﻿ow lets install tailwind for design and react icons
 
-### Install Tailwind CSS
+#### Install Tailwind CSS
 
 ```shell
 npm install -D tailwindcss postcss autoprefixer
@@ -74,7 +74,7 @@ npx tailwindcss init -p
 
 
 
-### Configure your template paths
+#### Configure your template paths
 
 A﻿ tailwind.config.js fille will be generated. Open it and confirm that the configuration is the same as the one below -
 
@@ -92,7 +92,7 @@ module.exports = {
 
 
 
-### Add the Tailwind directives to your CSS
+#### Add the Tailwind directives to your CSS
 
 Lets add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file. Open index.css file and paste in these code-
 
@@ -100,4 +100,158 @@ Lets add the @tailwind directives for each of Tailwind’s layers to your ./src/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
+
+
+
+#### I﻿nstall React Icons
+
+Run the code below -
+
+```shell
+npm install react-icons --save
+```
+
+
+
+P﻿hew!, we are done with the setup. Lets start building our app.
+
+
+
+### B﻿uilding The App
+
+Now open App.js file and paste in these code below -
+
+```javascript
+import React from 'react';
+import { useState, useEffect } from 'react';
+import './App.css'
+import { BsChevronUp, BsChevronDown } from 'react-icons/bs';
+
+const faqObject = [
+  {
+    ques: 'What is #23forObi about?',
+    res: '#23forObi is a movement that connects people in the grass root, we aim to educate people about PVC, good governance and how we can use this power to change our nation for the better.With your help and the help of everyone around you, we can better make this country a reliable, sustainable and relevant institution for ourselves and our kids.',
+  },
+  {
+    ques: 'How do I contribute?',
+    res: '#23forObi is a movement that connects people in the grass root, we aim to educate people about PVC, good governance and how we can use this power to change our nation for the better.With your help and the help of everyone around you, we can better make this country a reliable, sustainable and relevant institution for ourselves and our kids.',
+  },
+  {
+    ques: 'What the process of being a part of the movement',
+    res: '#23forObi is a movement that connects people in the grass root, we aim to educate people about PVC, good governance and how we can use this power to change our nation for the better.With your help and the help of everyone around you, we can better make this country a reliable, sustainable and relevant institution for ourselves and our kids.',
+  },
+  {
+    ques: 'What is #23forObi about?',
+    res: '#23forObi is a movement that connects people in the grass root, we aim to educate people about PVC, good governance and how we can use this power to change our nation for the better.With your help and the help of everyone around you, we can better make this country a reliable, sustainable and relevant institution for ourselves and our kids.',
+  },
+  {
+    ques: 'What is #23forObi about?',
+    res: '#23forObi is a movement that connects people in the grass root, we aim to educate people about PVC, good governance and how we can use this power to change our nation for the better.With your help and the help of everyone around you, we can better make this country a reliable, sustainable and relevant institution for ourselves and our kids.',
+  },
+];
+
+const App = () => {
+  const [searchQuery, setSearchQuery] = useState('');
+  const [searchValue, setSearchValue ] = useState(faqObject)
+  const [faq, setFaq] = useState(false);
+
+  const faqShow = {
+    height: '150px',
+    transition: '0.5s',
+  };
+
+  const faqHide = {
+    height: '50px',
+    transition: '0.5s',
+  };
+
+  const toggle = (index) => {
+    if (faq === index) {
+      return setFaq(null);
+    }
+    setFaq(index);
+  };
+
+
+
+  const handleChange = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
+  useEffect(() => {
+
+    if(searchQuery !== ''){
+      let search = searchValue.filter((value) => {
+          return value.ques.toLowerCase().includes(searchQuery.toString().toLowerCase())
+        })
+        // console.log(search)
+        setSearchValue(search)
+    }else {
+      setSearchValue(faqObject)
+    }
+  }, [searchQuery])
+
+  
+  return (
+    <div className='container'>
+      <div>
+        <div className='flex items-center relative w-[320px] h-[44px] border-2 border-[#979797] rounded-full'>
+          <input
+            type="text"
+            placeholder="Search here"
+            value={searchQuery}
+            onChange={handleChange}
+            className='mx-5 w-1/2 outline-none'
+          />
+          <div className='absolute left-0 bottom-3 lg:bottom-2 px-2'>
+            {/* <Image src={search} alt="search" /> */}
+          </div>
+        </div>
+
+        <div >
+          {searchValue.map((item, index) => (
+            <div className='border h-27 rounded-2xl mt-10 overflow-y-hidden bg-white p-4'
+              style={faq === index ? faqShow : faqHide}
+              onClick={() => toggle(index)}
+              key={index}
+            >
+              <section className='h-8 flex justify-between items-center'>
+                <h3>{item.ques}</h3>
+                {faq === index ? (
+                  <BsChevronDown className="text-3xl" />
+                ) : (
+                  <BsChevronUp className="text-3xl" />
+                )}
+              </section>
+              <p>{item.res}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default App;
+
+```
+
+
+
+L﻿ong code right? don't worry before I explain, add this responsive CSS code to App.css file - 
+
+```css
+.container {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+}
 ```
