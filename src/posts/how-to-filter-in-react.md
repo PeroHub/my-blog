@@ -47,4 +47,8 @@ If you're not having the expected results, go over it again step by step.
 
 ### Installing React
 
-Run this command and open it on vscode after installation.
+Run this command and open the folder on vscode after successful installation.
+
+```javascript
+npx create-react-app my-app
+```
