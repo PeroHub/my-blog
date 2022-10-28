@@ -25,8 +25,6 @@ Your output will look like this -
 
 ![node screenshort](/static/img/node.jpg "node")
 
-
-
 Also run this command to see the version of NPM -
 
 ```shell
@@ -37,13 +35,9 @@ Y﻿ou'll have somthing like this -
 
 ![npm screenshort](/static/img/npm.jpg "npm")
 
-
-
 Your version of node and npm  might be different at the time of download. No need to worry as the projects is constantly releasing new improved versions.
 
 If you're not having the expected results, go over it again step by step.
-
-
 
 ### Installing React
 
@@ -58,10 +52,7 @@ G﻿o inside the folder and start the project with these command-
 ```shell
 cd my-app
 npm start
-
 ```
-
-
 
 N﻿ow lets install tailwind for design and react icons
 
@@ -71,8 +62,6 @@ N﻿ow lets install tailwind for design and react icons
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
-
-
 
 #### Configure your template paths
 
@@ -90,8 +79,6 @@ module.exports = {
 }
 ```
 
-
-
 #### Add the Tailwind directives to your CSS
 
 Lets add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file. Open index.css file and paste in these code-
@@ -102,8 +89,6 @@ Lets add the @tailwind directives for each of Tailwind’s layers to your ./src/
 @tailwind utilities;
 ```
 
-
-
 #### I﻿nstall React Icons
 
 Run the code below -
@@ -112,11 +97,7 @@ Run the code below -
 npm install react-icons --save
 ```
 
-
-
 P﻿hew!, we are done with the setup. Lets start building our app.
-
-
 
 ### B﻿uilding The App
 
@@ -234,10 +215,7 @@ const App = () => {
 };
 
 export default App;
-
 ```
-
-
 
 L﻿ong code right? don't worry before I explain, add this responsive CSS code to App.css file - 
 
@@ -256,18 +234,28 @@ L﻿ong code right? don't worry before I explain, add this responsive CSS code t
 }
 ```
 
-
-
 A﻿lright, let me explain what is happening in App.js :-
 
 1. A﻿rray
 
 ![Array](/static/img/array.jpg "Array")
 
-
-
 T﻿he data in the image above represent our array of questions and answers that we are using to build our UI.
 
 2﻿. React Event
 
 ![event](/static/img/event.jpg "event")
+
+
+
+3﻿. Filter Function
+
+![filter](/static/img/filter.jpg "filter")
+
+H﻿ere, we are only filtering when the search fill is not empty. Inside the condition, we get the user inputs and filter from our array of data using include method and converting all values to lowercase. We return the correct values if their search is available else we show the initial data.
+
+And that is it for this tutorial.
+
+### Conclusion
+
+There other ways to achieve the same result. Explore, improve and do some magic with your c.oding super power.
