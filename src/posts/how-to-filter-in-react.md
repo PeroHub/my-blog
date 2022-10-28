@@ -246,7 +246,7 @@ T﻿he data in the image above represent our array of questions and answers that
 
 ![event](/static/img/event.jpg "event")
 
-
+T﻿his function is keeping track of what the user input into our search field and also updating state.
 
 3﻿. Filter Function
 
