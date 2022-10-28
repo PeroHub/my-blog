@@ -12,3 +12,21 @@ Implementing filtering functionality in an application is very common task of a 
 In this tutorial, I assume that you have React knowledge already as this not a beginner tutorial.
 
 To proceed, ensure that you have Node installed. Node is an open source JavaScript runtime environment that runs on chrome V8 engine. This comes bundled with NPM-- a package manager that would enable us install and run React.
+
+### How To Check If Node Installed
+
+Open your cmd or terminal and run this command to confirm -
+
+```shell
+node -v
+```
+
+Your output will look like this -
+
+![node screenshort](/static/img/node.jpg "node")
+
+
+
+Also run this command to see the version of NPM -
+
+![npm screenshort](/static/img/npm.jpg "npm")
