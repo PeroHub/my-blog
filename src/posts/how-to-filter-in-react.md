@@ -36,3 +36,7 @@ npm -v
 Y﻿ou'll have somthing like this -
 
 ![npm screenshort](/static/img/npm.jpg "npm")
+
+
+
+Your version of node and npm  might be different at the time of download. No need to worry as the projects is constantly releasing new improved versions.
