@@ -29,4 +29,10 @@ Your output will look like this -
 
 Also run this command to see the version of NPM -
 
+```shell
+npm -v
+```
+
+Y﻿ou'll have somthing like this -
+
 ![npm screenshort](/static/img/npm.jpg "npm")
