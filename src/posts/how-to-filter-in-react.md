@@ -65,7 +65,39 @@ npm start
 
 N﻿ow lets install tailwind for design and react icons
 
+### Install Tailwind CSS
+
 ```shell
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+```
+
+
+
+### Configure your template paths
+
+A﻿ tailwind.config.js fille will be generated. Open it and confirm that the configuration is the same as the one below -
+
+```javascript
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+
+
+### Add the Tailwind directives to your CSS
+
+Lets add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file. Open index.css file and paste in these code-
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 ```
